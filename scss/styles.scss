@@ -3,7 +3,8 @@
 // order in which we import the files is important
 // follow original CSS order as close as possible
 
-@import "components/index",
-        "utilities/index",
-        "base/index";
+@import "utilities/index",
+        "base/index",
+        "components/index";
+        
         
