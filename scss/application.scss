@@ -1,9 +1,9 @@
+
 // === Global Imports ===
 
 // order in which we import the files is important
 // follow original CSS order as close as possible
 
-@import "components/index",
-        "utilities/index",
-        "base/index";
-        
+@import "base/index";
+@import "components/index";
+@import "utilities/index";
