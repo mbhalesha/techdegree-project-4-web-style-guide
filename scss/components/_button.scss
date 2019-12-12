@@ -11,8 +11,9 @@
     @each $key, $color in $button-colors {
       &.#{$key} {
         background-color: $color;
+        transition-duration: 0.3s;
         &:hover {
-          background-color: lighten($color, 10%);
+          background-color: lighten($color, 15%);
         }
       }
     }

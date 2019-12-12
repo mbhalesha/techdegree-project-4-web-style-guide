@@ -596,66 +596,71 @@ a {
 /* line 12, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn.default {
   background-color: #51ddfc;
+  transition-duration: 0.3s;
 }
 
-/* line 14, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
+/* line 15, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn.default:hover {
-  background-color: #83e7fd;
+  background-color: #9cecfd;
 }
 
 /* line 12, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn.success {
   background-color: #63cc82;
+  transition-duration: 0.3s;
 }
 
-/* line 14, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
+/* line 15, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn.success:hover {
-  background-color: #89d9a1;
+  background-color: #9ddfb0;
 }
 
 /* line 12, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn.error {
   background-color: #e4757a;
+  transition-duration: 0.3s;
 }
 
-/* line 14, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
+/* line 15, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn.error:hover {
-  background-color: #eca0a3;
+  background-color: #f1b5b8;
 }
 
 /* line 12, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn.warning {
   background-color: #fd7856;
+  transition-duration: 0.3s;
 }
 
-/* line 14, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
+/* line 15, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn.warning:hover {
-  background-color: #fea088;
+  background-color: #feb4a2;
 }
 
 /* line 12, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn.info {
   background-color: #927bc1;
+  transition-duration: 0.3s;
 }
 
-/* line 14, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
+/* line 15, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn.info:hover {
-  background-color: #af9ed1;
+  background-color: #bdafd9;
 }
 
 @media (min-width: 768px) {
-  /* line 24, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
+  /* line 25, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
   .col-12 {
     display: flex;
   }
 }
 
-/* line 29, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
+/* line 30, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn {
   padding: 10px 30px;
 }
 
-/* line 33, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
+/* line 34, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_button.scss */
 .btn + .btn {
   margin-left: 10px;
 }
@@ -690,7 +695,7 @@ a {
   padding-left: 0;
   flex-basis: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 /* line 8, ../../../../../Documents/GitHub/techdegree-project-4-web-style-guide/scss/components/_navigation.scss */
