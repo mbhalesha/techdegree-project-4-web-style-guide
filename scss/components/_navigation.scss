@@ -19,17 +19,24 @@
           background-color: #58e1c1;
         }
     }
+    @include mq($break-m) 
+    {
+    @include flexbox(flex, row, flex-end, center);
+      &-link {
+      flex-basis: 100px;
+    }
+  }
   }
   
   //=== Media Queries ===
 
-@include mq($break-m) 
-  {
-   @include flexbox(flex, row, flex-end, center);
-        &-link {
-      flex-basis: 100px;
-    }
-  }
+// @include mq($break-m) 
+//   {
+//    @include flexbox(flex, row, flex-end, center);
+//         &-link {
+//       flex-basis: 100px;
+//     }
+//   }
 
   // .nav-link {
   //   text-align: center;
